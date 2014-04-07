@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sensor</string>
+    <string name="exit">退出</string>
+    <string name="introduce">这是什么？</string>
+    <string name="introduce_full">一个无聊的小工具，通过UDP将手机传感器采集的数据发送到指定的IP地址上。</string>
+    <string name="targethost">主机:端口</string>
+    <string name="sensortype">传感器类型</string>
+    <string name="pattern">模板（发送到主机的）</string>
+    <string name="realtime_data">实时数据</string>
+    <string name="title_activity_help">帮助说明</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">欢迎使用Sensor</string>
+    <string name="attention">请注意！</string>
+    <string name="attention_full">此程序只是负责将信息发送给计算机，至于怎么使用那些数据，这是你的事情。</string>
+    <string name="letsgo">先认识一下界面</string>
+    <string name="ui_mswitch">【主控开关】设置好参数以后打开它，程序就开工了！需要注意的是在开启状态下手机不能够休眠。</string>
+    <string name="ui_host">【目标】这里你需要填入目标主机的地址:端口（例如 MyPC.lan:2221 或 192.168.1.102:2221 ）。数据将通过UDP协议发送到这个端口。</string>
+    <string name="ui_spinner">【传感器选择】在这你可以查看并选择一个要配置的传感器。请注意，Sensor 支持多个传感器同时工作！</string>
+    <string name="ui_sensorname">【传感器开关】这个控制当前所选传感器的开关状态。</string>
+    <string name="ui_temple">【模板】就像 printf 一样的格式，Sensor 可以读取最多 10 个传感器数据，全部都是 float 型的。建议不同的传感器用不同的模板，不然电脑无法分辨是哪个传感器的数据。</string>
+    <string name="ui_data">【数据预览】这就是手机发送过去的数据的样子，编码为 ISO-8859-1 哦。</string>
+    <string name="thisisit">就是这样</string>
+    <string name="s_1">为需要的传感器设置模板，并打开那个传感器</string>
+    <string name="s_2">设置主机地址和端口</string>
+    <string name="s_3">电脑开始从指定端口 UDP 接收数据，接下来靠电脑了！</string>
+
+</resources>
